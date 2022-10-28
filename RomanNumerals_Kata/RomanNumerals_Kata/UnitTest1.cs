@@ -37,6 +37,12 @@ namespace RomanNumerals_Kata {
             Func<object> convertZeroToRoman = () => RomanNumerals.RomanNumeralFrom(0);
             convertZeroToRoman.Should().Throw<IndexOutOfRangeException>();
         }
+
+        [Test]
+        public void numeric_is_higher_than_three_thousand_nine_hundred_ninety_nine() {
+            Func<object> convertZeroToRoman = () => RomanNumerals.RomanNumeralFrom(4000);
+            convertZeroToRoman.Should().Throw<IndexOutOfRangeException>();
+        }
     }
 
     public class RomanNumerals {
