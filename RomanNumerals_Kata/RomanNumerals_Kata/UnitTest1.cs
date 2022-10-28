@@ -46,9 +46,12 @@ namespace RomanNumerals_Kata {
 
     public class RomanNumerals {
         public static object RomanNumeralFrom(int number) {
-            if (number == 1) return "I";
-            if (number == 2) return "II";
-            return "III";
+            var romanNumeral = string.Empty;
+            if (number == 4) return "IV";
+            for (int counter = 1; counter < 4; counter++) {
+                romanNumeral += "I";
+            }
+            return romanNumeral;
         }
     }
 }
