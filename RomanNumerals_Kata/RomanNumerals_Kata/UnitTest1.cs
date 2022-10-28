@@ -22,6 +22,9 @@ namespace RomanNumerals_Kata {
         [TestCase(27, "XXVII")]
         [TestCase(40, "XL")]
         [TestCase(68, "LXVIII")]
+        [TestCase(1547, "MDXLVII")]
+        [TestCase(3207, "MMMCCVII")]
+        [TestCase(3999, "MMMCMXCIX")]
         public void return_expected_roman_numeral_for_a_number(int number, string expected) {
 
             var result = RomanNumerals.RomanNumeralFrom(number);
@@ -56,7 +59,13 @@ namespace RomanNumerals_Kata {
                 { 9, "IX" },
                 { 10, "X" },
                 { 40, "XL" },
-                { 50, "L" }
+                { 50, "L" },
+                { 90, "XC" },
+                { 100, "C" },
+                { 400, "CD" },
+                { 500, "D" },
+                { 900, "CM" },
+                { 1000, "M" }
             };
         }
     }
