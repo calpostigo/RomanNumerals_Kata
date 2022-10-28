@@ -7,5 +7,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ace47c1_002D04f4_002D4337_002Da781_002D7b244915b354/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="return_expected_roman_numeral_for_a_number" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::AB17B9BF-C016-49B3-A2A9-0B54A216A233::.NETCoreApp,Version=v3.1::RomanNumerals_Kata.RomanNumeralsShould.return_expected_roman_numeral_for_a_number&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AB17B9BF-C016-49B3-A2A9-0B54A216A233::.NETCoreApp,Version=v3.1::RomanNumerals_Kata.RomanNumeralsShould.numeric_is_lower_than_one&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

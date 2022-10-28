@@ -1,5 +1,6 @@
 using FluentAssertions;
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -30,6 +31,11 @@ namespace RomanNumerals_Kata {
             var result = RomanNumerals.RomanNumeralFrom(number);
 
             result.Should().Be(expected);
+        }
+        [Test]
+        public void numeric_is_lower_than_one() {
+            Func<object> convertZeroToRoman = () => RomanNumerals.RomanNumeralFrom(0);
+            convertZeroToRoman.Should().Throw<IndexOutOfRangeException>();
         }
     }
 
