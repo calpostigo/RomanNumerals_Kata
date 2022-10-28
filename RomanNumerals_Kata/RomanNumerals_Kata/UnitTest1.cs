@@ -26,6 +26,8 @@ namespace RomanNumerals_Kata {
         public static object RomanNumeralFrom(int number) {
             var romanNumeral = string.Empty;
             if (number == 4) return "IV";
+            if (number == 9) return "IX";
+
             if (number >= 5) {
                 romanNumeral = "V";
                 number -= 5;
