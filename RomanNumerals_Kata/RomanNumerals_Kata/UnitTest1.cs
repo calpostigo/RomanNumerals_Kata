@@ -24,8 +24,11 @@ namespace RomanNumerals_Kata {
     public class RomanNumerals {
         public static object RomanNumeralFrom(int number) {
             var romanNumeral = string.Empty;
-            if (number == 5) return "V";
             if (number == 4) return "IV";
+            if (number >= 5) {
+                romanNumeral = "V";
+                number -= 5;
+            }
             for (int counter = 1; counter <= number; counter++) {
                 romanNumeral += "I";
             }
