@@ -33,6 +33,15 @@ namespace RomanNumerals_Kata {
 
             result.Should().Be("III");
         }
+
+        [Test]
+        public void return_roman_numeral_IV_for_number_4() {
+            var number = 4;
+
+            var result = RomanNumerals.RomanNumeralFrom(number);
+
+            result.Should().Be("IV");
+        }
     }
 
     public class RomanNumerals {
