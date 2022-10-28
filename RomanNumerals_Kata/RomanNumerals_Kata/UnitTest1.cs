@@ -50,7 +50,7 @@ namespace RomanNumerals_Kata {
             var romanNumeral = string.Empty;
             var discount = 0;
 
-            if (number < 1 || number > 3999) throw new IndexOutOfRangeException();
+            CheckIfIsAValidNumber(number);
 
             var romanNumeralsDictionary = RomanNumeralDictionary();
             
@@ -63,6 +63,10 @@ namespace RomanNumerals_Kata {
                 romanNumeral += roman;
             }
             return romanNumeral;
+        }
+
+        private static void CheckIfIsAValidNumber(int number) {
+            if (number < 1 || number > 3999) throw new IndexOutOfRangeException();
         }
 
         private static Dictionary<int, string> RomanNumeralDictionary() {
