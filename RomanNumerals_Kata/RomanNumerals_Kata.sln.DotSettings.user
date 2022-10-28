@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0557349a_002D7b49_002D493b_002D8ff8_002Df3b6e8d20d24/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="return_roman_numeral_I_for_number_1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::AB17B9BF-C016-49B3-A2A9-0B54A216A233::.NETCoreApp,Version=v3.1::RomanNumerals_Kata.RomanNumeralsShould.return_roman_numeral_I_for_number_1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AB17B9BF-C016-49B3-A2A9-0B54A216A233::.NETCoreApp,Version=v3.1::RomanNumerals_Kata.RomanNumeralsShould.return_roman_numeral_II_for_number_2&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
