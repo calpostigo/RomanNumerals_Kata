@@ -29,10 +29,13 @@ namespace RomanNumerals_Kata {
             var romanNumeral = string.Empty;
             if (number == 4) return "IV";
             if (number == 9) return "IX";
-            if (number == 10) return "X";
+            if (number >= 10) {
+                romanNumeral = "X";
+                number -= 10;
+            }
 
             if (number >= 5) {
-                romanNumeral = "V";
+                romanNumeral += "V";
                 number -= 5;
             }
             for (int counter = 1; counter <= number; counter++) {
