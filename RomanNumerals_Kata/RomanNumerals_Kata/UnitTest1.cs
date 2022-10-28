@@ -19,7 +19,7 @@ namespace RomanNumerals_Kata {
 
     public class RomanNumerals {
         public static object RomanNumeralFrom(int number) {
-            throw new System.NotImplementedException();
+            return "I";
         }
     }
 }
