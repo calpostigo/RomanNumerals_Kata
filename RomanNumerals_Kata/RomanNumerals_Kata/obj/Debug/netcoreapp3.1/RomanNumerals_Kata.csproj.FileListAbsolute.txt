@@ -1,13 +1,13 @@
-C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
-C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\nunit.engine.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.dll
+C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\FluentAssertions.dll
+C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.deps.json
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.runtimeconfig.json
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.runtimeconfig.dev.json
-C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.dll
-C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.pdb
-C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
@@ -20,7 +20,6 @@ C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanN
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
@@ -99,3 +98,4 @@ C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanN
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\obj\Debug\netcoreapp3.1\RomanNumerals_Kata.dll
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\obj\Debug\netcoreapp3.1\RomanNumerals_Kata.pdb
 C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\obj\Debug\netcoreapp3.1\RomanNumerals_Kata.genruntimeconfig.cache
+C:\Users\ecalderin\Documents\GitHub\RomanNumerals_Kata\RomanNumerals_Kata\RomanNumerals_Kata\bin\Debug\netcoreapp3.1\RomanNumerals_Kata.pdb

@@ -29,26 +29,34 @@ namespace RomanNumerals_Kata {
     public class RomanNumerals {
         public static object RomanNumeralFrom(int number) {
             var romanNumeral = string.Empty;
+            int discount = 0;
 
-            if (number >= 10) {
-                romanNumeral = "X";
-                number -= 10;
-            }
-            
-            if (number == 9) {
-                romanNumeral += "IX";
-                number -= 9;
-            }
-           
-            if (number >= 5) {
-                romanNumeral += "V";
-                number -= 5;
-            }
+            for (int i = number; i >= 4; i = i - discount) {
+                if (number >= 10) {
+                    romanNumeral += "X";
+                    discount = 10;
+                    number -= discount;
+                }
 
-            if (number == 4) {
-                romanNumeral += "IV";
-                number -= 4;
+                if (number == 9) {
+                    romanNumeral += "IX";
+                    discount = 9;
+                    number -= discount;
+                }
+
+                if (number >= 5 && number < 9) {
+                    romanNumeral += "V";
+                    discount = 5;
+                    number -= discount;
+                }
+
+                if (number == 4) {
+                    romanNumeral += "IV";
+                    discount = 4;
+                    number -= discount;
+                }
             }
+            //number -= discount;
 
 
             for (int counter = 1; counter <= number; counter++) {
