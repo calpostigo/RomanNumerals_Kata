@@ -38,7 +38,8 @@ namespace RomanNumerals_Kata {
     public class RomanNumerals {
         public static object RomanNumeralFrom(int number) {
             if (number == 1) return "I";
-            return "II";
+            if (number == 2) return "II";
+            return "III";
         }
     }
 }
