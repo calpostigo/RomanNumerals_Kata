@@ -31,39 +31,29 @@ namespace RomanNumerals_Kata {
     public class RomanNumerals {
         public static object RomanNumeralFrom(int number) {
             var romanNumeral = string.Empty;
-            int discount = 0;
-            for (int i = number; i > 0; i = i - discount) {
-                if (number >= 10) {
-                    romanNumeral += "X";
-                    discount = 10;
-                    number -= discount;
-                }
+            var discount = 0;
 
-                if (number == 9) {
-                    romanNumeral += "IX";
-                    discount = 9;
-                    number -= discount;
-                }
-
-                if (number >= 5 && number < 9) {
-                    romanNumeral += "V";
-                    discount = 5;
-                    number -= discount;
-                }
-
-                if (number == 4) {
-                    romanNumeral += "IV";
-                    discount = 4;
-                    number -= discount;
-                }
-                if (number < 4 && number > 0) {
-                    romanNumeral += "I";
-                    discount = 1;
-                    number -= discount;
-                }
+            var romanNumeralsDictionary = RomanNumeralDictionary();
+            
+            for (var counter = number; counter > 0; counter -= discount) {
+                var orderedRomanNumerals = romanNumeralsDictionary
+                    .OrderByDescending(i => i.Key)
+                    .First(x => x.Key <= counter);
+                var roman = orderedRomanNumerals.Value;
+                discount = orderedRomanNumerals.Key;
+                romanNumeral += roman;
             }
             return romanNumeral;
         }
 
+        private static Dictionary<int, string> RomanNumeralDictionary() {
+            return new Dictionary<int, string>() {
+                { 1, "I" },
+                { 4, "IV" },
+                { 5, "V" },
+                { 9, "IX" },
+                { 10, "X" }
+            };
+        }
     }
 }
