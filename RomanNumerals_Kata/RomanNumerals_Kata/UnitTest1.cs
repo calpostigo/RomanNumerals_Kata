@@ -55,14 +55,18 @@ namespace RomanNumerals_Kata {
             var romanNumeralsDictionary = RomanNumeralDictionary();
             
             for (var counter = number; counter > 0; counter -= discount) {
-                var orderedRomanNumerals = romanNumeralsDictionary
-                    .OrderByDescending(i => i.Key)
-                    .First(x => x.Key <= counter);
+                var orderedRomanNumerals = MinorNearestToNumber(romanNumeralsDictionary, counter);
                 var roman = orderedRomanNumerals.Value;
                 discount = orderedRomanNumerals.Key;
                 romanNumeral += roman;
             }
             return romanNumeral;
+        }
+
+        private static KeyValuePair<int, string> MinorNearestToNumber(Dictionary<int, string> romanNumeralsDictionary, int counter) {
+            return romanNumeralsDictionary
+                .OrderByDescending(i => i.Key)
+                .First(x => x.Key <= counter);
         }
 
         private static void CheckIfIsAValidNumber(int number) {
