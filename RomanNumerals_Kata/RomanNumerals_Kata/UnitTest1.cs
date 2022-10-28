@@ -1,5 +1,7 @@
 using FluentAssertions;
 using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace RomanNumerals_Kata {
     public class RomanNumeralsShould {
@@ -30,8 +32,7 @@ namespace RomanNumerals_Kata {
         public static object RomanNumeralFrom(int number) {
             var romanNumeral = string.Empty;
             int discount = 0;
-
-            for (int i = number; i >= 4; i = i - discount) {
+            for (int i = number; i > 0; i = i - discount) {
                 if (number >= 10) {
                     romanNumeral += "X";
                     discount = 10;
@@ -55,14 +56,14 @@ namespace RomanNumerals_Kata {
                     discount = 4;
                     number -= discount;
                 }
-            }
-            //number -= discount;
-
-
-            for (int counter = 1; counter <= number; counter++) {
-                romanNumeral += "I";
+                if (number < 4 && number > 0) {
+                    romanNumeral += "I";
+                    discount = 1;
+                    number -= discount;
+                }
             }
             return romanNumeral;
         }
+
     }
 }
