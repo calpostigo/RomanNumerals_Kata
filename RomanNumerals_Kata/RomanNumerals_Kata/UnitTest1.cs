@@ -21,6 +21,7 @@ namespace RomanNumerals_Kata {
         [TestCase(14, "XIV")]
         [TestCase(27, "XXVII")]
         [TestCase(40, "XL")]
+        [TestCase(68, "LXVIII")]
         public void return_expected_roman_numeral_for_a_number(int number, string expected) {
 
             var result = RomanNumerals.RomanNumeralFrom(number);
